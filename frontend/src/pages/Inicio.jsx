@@ -1,4 +1,3 @@
-import React from "react";
 // src/pages/Home.jsx
 import React from "react";
 
@@ -17,23 +16,7 @@ export default function Home() {
         </button>
       </section>
 
-      <section className="py-16 px-6">
-        <h2 className="text-3xl font-semibold text-center mb-8">Nuestros Servicios</h2>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div className="p-6 bg-gray-100 rounded shadow">
-            <h3 className="text-xl font-bold mb-2">Citas Médicas</h3>
-            <p>Agenda citas fácilmente con especialistas certificados en línea o presencial.</p>
-          </div>
-          <div className="p-6 bg-gray-100 rounded shadow">
-            <h3 className="text-xl font-bold mb-2">Historial Clínico</h3>
-            <p>Accede a tu historial médico desde cualquier dispositivo, de forma segura.</p>
-          </div>
-          <div className="p-6 bg-gray-100 rounded shadow">
-            <h3 className="text-xl font-bold mb-2">Atención 24/7</h3>
-            <p>Consulta médica en línea las 24 horas, con profesionales disponibles al instante.</p>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }
